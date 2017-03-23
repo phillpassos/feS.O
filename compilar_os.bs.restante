@@ -1,0 +1,48 @@
+cd /cygdrive/c/tcc/Desenvolvimento/kernel
+make
+cp /cygdrive/c/tcc/Desenvolvimento/kernel/bin/kernel.bin /cygdrive/c/tcc/isofiles/boot
+cp /cygdrive/c/tcc/Desenvolvimento/kernel/bin/trampolim.o /cygdrive/c/tcc/isofiles/drivers/tramp.o
+
+cd /cygdrive/c/tcc/Desenvolvimento/dev/Console
+make
+cp /cygdrive/c/tcc/Desenvolvimento/dev/Console/bin/console.o /cygdrive/c/tcc/isofiles/drivers
+
+cd /cygdrive/c/tcc/Desenvolvimento/dev/Timer
+make
+cp /cygdrive/c/tcc/Desenvolvimento/dev/Timer/bin/timer.o /cygdrive/c/tcc/isofiles/drivers
+
+cd /cygdrive/c/tcc/Desenvolvimento/dev/Fat
+make
+cp /cygdrive/c/tcc/Desenvolvimento/dev/Fat/bin/fat.o /cygdrive/c/tcc/isofiles/drivers
+
+cd /cygdrive/c/tcc/Desenvolvimento/dev/Iso9660
+make
+cp /cygdrive/c/tcc/Desenvolvimento/dev/Iso9660/bin/iso9660.o /cygdrive/c/tcc/isofiles/drivers
+
+cd /cygdrive/c/tcc/Desenvolvimento/dev/Ide
+make
+cp /cygdrive/c/tcc/Desenvolvimento/dev/Ide/bin/ide.o /cygdrive/c/tcc/isofiles/drivers
+
+cd /cygdrive/c/tcc/Desenvolvimento/app/Editor
+make
+cp /cygdrive/c/tcc/Desenvolvimento/app/Editor/bin/editor.o /cygdrive/c/tcc/isofiles/app
+
+cd /cygdrive/c/tcc/Desenvolvimento/app/Idle
+make
+cp /cygdrive/c/tcc/Desenvolvimento/app/Idle/bin/idle.o /cygdrive/c/tcc/isofiles/app
+
+cd /cygdrive/c/tcc/Desenvolvimento/app/Shell
+make
+cp /cygdrive/c/tcc/Desenvolvimento/app/Shell/bin/shell.o /cygdrive/c/tcc/isofiles/app
+
+cd /cygdrive/c/tcc/Desenvolvimento/app/Teste
+make
+cp /cygdrive/c/tcc/Desenvolvimento/app/Teste/bin/teste.o /cygdrive/c/tcc/isofiles/app
+
+cd /cygdrive/c/tcc/Desenvolvimento/app/Tcteste
+make
+cp /cygdrive/c/tcc/Desenvolvimento/app/Tcteste/bin/tcteste.o /cygdrive/c/tcc/isofiles/app
+
+cd /cygdrive/c/tcc/Desenvolvimento/app/Egauss
+make
+cp /cygdrive/c/tcc/Desenvolvimento/app/Egauss/bin/egauss.o /cygdrive/c/tcc/isofiles/app

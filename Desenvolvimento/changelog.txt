@@ -1,0 +1,1 @@
+12-04-2013 > adicionada funcao para gerar numeros aleatorios (rand, srand) e funcao para obter o PIT (sugiro utilizar o pit para o srand)

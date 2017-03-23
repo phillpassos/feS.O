@@ -1,0 +1,153 @@
+<NotepadPlus>
+    <Project name="SO">
+        <Folder name="Desenvolvimento">
+            <Folder name="app">
+                <Folder name="bin">
+                    <File name="app\bin\editor.o" />
+                    <File name="app\bin\idle.o" />
+                    <File name="app\bin\shell.o" />
+                    <File name="app\bin\sshell.o" />
+                    <File name="app\bin\taux.o" />
+                    <File name="app\bin\testec.o" />
+                    <File name="app\bin\_editor.o" />
+                    <File name="app\bin\_idle.o" />
+                </Folder>
+                <Folder name="include">
+                    <File name="app\include\Editor.h" />
+                </Folder>
+                <File name="app\Editor.cpp" />
+                <File name="app\Idle.cpp" />
+                <File name="app\link.ld" />
+                <File name="app\Shell.cpp" />
+                <File name="app\Teste.cpp" />
+            </Folder>
+            <Folder name="dev">
+                <Folder name="bin">
+                    <File name="dev\bin\cons.o" />
+                    <File name="dev\bin\console.o" />
+                    <File name="dev\bin\fat.o" />
+                    <File name="dev\bin\fat32.o" />
+                    <File name="dev\bin\fataux.o" />
+                    <File name="dev\bin\id.o" />
+                    <File name="dev\bin\ide.o" />
+                    <File name="dev\bin\ideasm.o" />
+                    <File name="dev\bin\iso.o" />
+                    <File name="dev\bin\iso9660.o" />
+                    <File name="dev\bin\servshell.o" />
+                    <File name="dev\bin\sshell.o" />
+                    <File name="dev\bin\tec.o" />
+                    <File name="dev\bin\tim.o" />
+                    <File name="dev\bin\timer.o" />
+                    <File name="dev\bin\vid.o" />
+                </Folder>
+                <Folder name="include">
+                    <File name="dev\include\Fat.h" />
+                    <File name="dev\include\Iso9660.h" />
+                    <File name="dev\include\Teclado.h" />
+                    <File name="dev\include\Video.h" />
+                </Folder>
+                <File name="dev\Console.cpp" />
+                <File name="dev\Fat.cpp" />
+                <File name="dev\Fataux.cpp" />
+                <File name="dev\Ide.cpp" />
+                <File name="dev\Iso9660.cpp" />
+                <File name="dev\link.ld" />
+                <File name="dev\Servidor_Shell.cpp" />
+                <File name="dev\Teclado.cpp" />
+                <File name="dev\Timer.cpp" />
+                <File name="dev\Video.cpp" />
+            </Folder>
+            <Folder name="kernel">
+                <Folder name="bin">
+                    <File name="kernel\bin\fat.o" />
+                    <File name="kernel\bin\gdt.o" />
+                    <File name="kernel\bin\ide.o" />
+                    <File name="kernel\bin\idt.o" />
+                    <File name="kernel\bin\irq.o" />
+                    <File name="kernel\bin\iso9660.o" />
+                    <File name="kernel\bin\loader.o" />
+                    <File name="kernel\bin\main.o" />
+                    <File name="kernel\bin\mem.o" />
+                    <File name="kernel\bin\msg.o" />
+                    <File name="kernel\bin\multiproc.o" />
+                    <File name="kernel\bin\processo.o" />
+                    <File name="kernel\bin\start.o" />
+                    <File name="kernel\bin\sys.o" />
+                    <File name="kernel\bin\tramp.o" />
+                    <File name="kernel\bin\trampolim.o" />
+                    <File name="kernel\bin\util.o" />
+                    <File name="kernel\bin\vfs.o" />
+                </Folder>
+                <Folder name="include">
+                    <File name="kernel\include\Gdt.h" />
+                    <File name="kernel\include\Idt.h" />
+                    <File name="kernel\include\Irq.h" />
+                    <File name="kernel\include\Lista.h" />
+                    <File name="kernel\include\Loader.h" />
+                    <File name="kernel\include\Memoria.h" />
+                    <File name="kernel\include\Mensagem.h" />
+                    <File name="kernel\include\Multiboot.h" />
+                    <File name="kernel\include\Multiprocessamento.h" />
+                    <File name="kernel\include\Processo.h" />
+                    <File name="kernel\include\Stdarg.h" />
+                    <File name="kernel\include\Syscall.h" />
+                    <File name="kernel\include\Util.h" />
+                    <File name="kernel\include\Vfs.h" />
+                    <File name="kernel\include\Avl.h" />
+                </Folder>
+                <File name="kernel\Gdt.cpp" />
+                <File name="kernel\Idt.cpp" />
+                <File name="kernel\Irq.cpp" />
+                <File name="kernel\Loader.cpp" />
+                <File name="kernel\Main.cpp" />
+                <File name="kernel\Memoria.cpp" />
+                <File name="kernel\Mensagem.cpp" />
+                <File name="kernel\Multiprocessamento.cpp" />
+                <File name="kernel\Processo.cpp" />
+                <File name="kernel\Start.asm" />
+                <File name="kernel\Syscall.cpp" />
+                <File name="kernel\Trampolim.asm" />
+                <File name="kernel\Util.cpp" />
+                <File name="kernel\Vfs.cpp" />
+            </Folder>
+            <Folder name="lib">
+                <Folder name="bin">
+                    <File name="lib\bin\ide.o" />
+                    <File name="lib\bin\io.o" />
+                    <File name="lib\bin\mem.o" />
+                    <File name="lib\bin\sistimer.o" />
+                    <File name="lib\bin\sys.o" />
+                    <File name="lib\bin\syscall.o" />
+                    <File name="lib\bin\util.o" />
+                </Folder>
+                <Folder name="include">
+                    <File name="lib\include\Ide.h" />
+                    <File name="lib\include\Io.h" />
+                    <File name="lib\include\Lista.h" />
+                    <File name="lib\include\Sistema.h" />
+                    <File name="lib\include\Sistimer.h" />
+                    <File name="lib\include\Stdarg.h" />
+                    <File name="lib\include\Util.h" />
+                    <File name="lib\include\Avl.h" />
+                </Folder>
+                <File name="lib\Ide.cpp" />
+                <File name="lib\Io.cpp" />
+                <File name="lib\Memoria.cpp" />
+                <File name="lib\Sistimer.cpp" />
+                <File name="lib\Syscall.asm" />
+                <File name="lib\Syscall.cpp" />
+                <File name="lib\Util.cpp" />
+            </Folder>
+            <File name="kernel.bin" />
+            <File name="link.ld" />
+            <File name="linkar.txt" />
+            <File name="linktramp.ld" />
+            <File name="workspace" />
+        </Folder>
+        <File name="C:\tcc\compilar_os.bat" />
+        <File name="C:\tcc\compilar_os.bs" />
+        <File name="C:\tcc\sessao" />
+        <File name="C:\tcc\wrspc.asm" />
+        <File name="C:\tcc\isofiles\boot\grub\menu.lst" />
+    </Project>
+</NotepadPlus>

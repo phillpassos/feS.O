@@ -1,0 +1,15 @@
+Ultimas alterações
+
+--
+
+# Adicionado o makefile e os arquivos para compilar
+o driver de disco. O código contém dados do driver ide.
+
+# Adicionado o link para execução do driver de disco na
+inicialização do S.O através do GRUB.
+
+# Adicionado o link para compilar o driver do HDD no compilar_os.bs
+
+--
+Obs.:
+compilar_os.bs.restante possui o restante dos arquivos a serem compilados. O objetivo é não ser necessário compilar diversos arquivos não modificados desnecessariamente.

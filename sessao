@@ -1,0 +1,11 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="2">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="312" startPos="221" endPos="235" selMode="0" lang="Normal Text" encoding="-1" filename="C:\tcc\isofiles\boot\grub\menu.lst" />
+            <File firstVisibleLine="510" xOffset="0" scrollWidth="1272" startPos="356" endPos="356" selMode="0" lang="Assembly" encoding="-1" filename="C:\tcc\Desenvolvimento\kernel\start.asm" />
+            <File firstVisibleLine="34" xOffset="0" scrollWidth="3296" startPos="8330" endPos="8330" selMode="0" lang="Normal Text" encoding="-1" filename="C:\tcc\compilar_os.bs" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="488" startPos="100" endPos="100" selMode="0" lang="Batch" encoding="-1" filename="C:\tcc\compilar_os.bat" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
